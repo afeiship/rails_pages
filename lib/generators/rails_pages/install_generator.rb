@@ -12,7 +12,7 @@ module RailsPages
     def install
       # namespace = ask_for('Where do you want to mount rails_admin?', 'admin', _namespace)
       # route("mount RailsAdmin::Engine => '/#{namespace}', as: 'rails_admin'")
-      template 'initializer.erb', 'config/initializers/rails_pages.rb'
+      template 'config/initializers/rails_pages.rb', 'config/initializers/rails_pages.rb'
     end
   end
 end

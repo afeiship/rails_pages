@@ -1,12 +1,15 @@
 require "rails_pages/version"
-
+require "rails"
 module RailsPages
-  class PagesController < ApplicationController
-      pages = %w[ page1 page2 page3 ]
-      pages.each do |page|
-          define_method(page) do
-              #do nothing
-          end
-      end
+  @@configured = false
+
+  def self.configured? #:nodoc:
+    @@configured
+  end
+
+  # You can use setup method to config your app.
+  def self.setup
+    @@configured = true
+    yield self
   end
 end
