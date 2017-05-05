@@ -1,9 +1,9 @@
-require 'rails/generators/base'
+require 'generators/rails_pages'
 
 module RailsPages
   module Generators
 
-    class InstallGenerator < Rails::Generators::Base
+    class InstallGenerator < Base
       source_root File.expand_path('../templates', __FILE__)
       def install
         # namespace = ask_for('Where do you want to mount rails_admin?', 'admin', _namespace)
