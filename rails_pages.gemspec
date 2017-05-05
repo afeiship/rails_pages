@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails_pages/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rails_pages"
-  spec.version       = RailsPages::VERSION
+  spec.version       = "0.1.3"
   spec.authors       = ["afeiship"]
   spec.email         = ["1290657123@qq.com"]
 

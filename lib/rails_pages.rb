@@ -1,15 +1,15 @@
-require "rails_pages/version"
-require "rails"
+require 'rails/generators/base'
+
 module RailsPages
-  @@configured = false
+  module Generators
+    class Base < Rails::Generators::Base #:nodoc:
+      def self.source_root
+        @_rails_pages_source_root ||= File.expand_path(File.join(File.dirname(__FILE__), 'rails_pages', generator_name, 'templates'))
+      end
 
-  def self.configured? #:nodoc:
-    @@configured
-  end
-
-  # You can use setup method to config your app.
-  def self.setup
-    @@configured = true
-    yield self
+      def self.banner
+        "rails generate rails_pages:#{generator_name} #{self.arguments.map{ |a| a.usage }.join(' ')} [options]"
+      end
+    end
   end
 end
