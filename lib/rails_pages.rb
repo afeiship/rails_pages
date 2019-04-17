@@ -1,4 +1,4 @@
-require 'rails_pages/engine'
+require "rails_pages/engine"
 
 module RailsPages
   class << self
@@ -11,11 +11,9 @@ module RailsPages
   end
 
   class Configuration
-    attr_accessor :option
     attr_accessor :pages
 
     def initialize
-      @option = 'default_option'
       @pages = []
     end
   end

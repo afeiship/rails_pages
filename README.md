@@ -1,16 +1,28 @@
 # RailsPages
-> Rails static pages generator.
+Short description and motivation.
 
-## build:
-```bash
-rake build
-```
+## Usage
+How to use my plugin.
 
-## create gem in local:
-```bash
-rake build && gem install pkg/rails_pages-0.1.3.gem
-```
+## Installation
+Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_pages', :path => '/Users/feizheng/github/rails_pages'
+gem 'rails_pages'
 ```
+
+And then execute:
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+```bash
+$ gem install rails_pages
+```
+
+## Contributing
+Contribution directions go here.
+
+## License
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
