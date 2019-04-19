@@ -4,6 +4,7 @@ module RailsPages
   class PagesController < ApplicationController
     RailsPages.configuration.pages.each do |page|
       define_method(page) do
+        @page_name = page
       end
     end
   end
