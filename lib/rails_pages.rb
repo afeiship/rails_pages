@@ -11,6 +11,7 @@ module RailsPages
   end
 
   class Configuration
+    attr_accessor :option
     attr_accessor :pages
 
     def initialize
