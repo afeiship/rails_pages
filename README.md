@@ -27,10 +27,12 @@ gem 'rails_pages', path: '/Users/feizheng/github/rails_pages'
 
 ## option
 > ./bin/rails rails_pages:install --full
+> ./bin/rails rails_pages:page pagename
 
-| option | type    | description         |
-| ------ | ------- | ------------------- |
-| full   | boolean | mount to root route |
+| option   | type    | description             |
+| -------- | ------- | ----------------------- |
+| full     | boolean | mount to root route     |
+| pagename | string  | your generate page name |
 
 <!-- true -->
 | Prefix Verb URI Pattern     | Controller#Action       |
