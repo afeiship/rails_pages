@@ -12,7 +12,7 @@
    ```
 3. test routes
    ```shell
-   ./bin/rails routes
+   rake app:routes
    ```
 
 ## Installation
