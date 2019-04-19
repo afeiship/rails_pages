@@ -21,3 +21,8 @@ gem 'rails_pages', git: 'https://github.com/afeiship/rails_pages'
 # Debug in local:
 gem 'rails_pages', path: '/Users/feizheng/github/rails_pages'
 ```
+
+
+## resources
+- https://medium.com/@dineshpanda92/how-i-created-engines-from-monolithic-ruby-on-rails-application-698574565698
+- https://guides.rubyonrails.org/engines.html
