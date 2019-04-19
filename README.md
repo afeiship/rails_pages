@@ -10,6 +10,10 @@
    ```shell
    ./bin/rails rails_pages:install
    ```
+3. test routes
+   ```shell
+   ./bin/rails routes
+   ```
 
 ## Installation
 > Add this line to your application's Gemfile:
