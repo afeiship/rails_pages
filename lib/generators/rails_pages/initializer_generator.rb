@@ -4,7 +4,7 @@ module RailsPages
     desc "Initialize necessary files to use RailsPages"
 
     def create_initializer
-      copy_file "initializer/config.rb", "config/initializers/rails_pages.rb"
+      copy_file "initializer/rails_pages.rb", "config/initializers/rails_pages.rb"
     end
   end
 end
