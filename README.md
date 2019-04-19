@@ -21,6 +21,8 @@
 ```
 
 ## option
+> ./bin/rails rails_pages:install --full
+
 | option | type    | description         |
 | ------ | ------- | ------------------- |
 | full   | boolean | mount to root route |
