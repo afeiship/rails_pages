@@ -5,7 +5,7 @@ module RailsPages
 
     def create_pages
       RailsPages.configuration.pages.each do |page|
-        copy_file "page.html.erb", "app/views/rails_pages/pages/#{page}.rb"
+        copy_file "page.html.erb", "app/views/rails_pages/pages/#{page}.html.rb"
       end
     end
   end
