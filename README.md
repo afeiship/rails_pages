@@ -1,28 +1,23 @@
 # RailsPages
-Short description and motivation.
+> Static pages.
 
 ## Usage
-How to use my plugin.
+1. initial config
+   ```shell
+   ./bin/rails rails_pages:initializer
+   ```
+2. install pages
+   ```shell
+   ./bin/rails rails_pages:install
+   ```
 
 ## Installation
-Add this line to your application's Gemfile:
+> Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_pages'
+# Gemfile in github:
+gem 'rails_pages', git: 'https://github.com/afeiship/rails_pages'
+
+# Debug in local:
+gem 'rails_pages', path: '/Users/feizheng/github/rails_pages'
 ```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install rails_pages
-```
-
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
