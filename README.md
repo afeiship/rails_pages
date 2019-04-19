@@ -1,7 +1,7 @@
 # rails_pages
 > Static pages.
 
-## Usage
+## usage
 1. initial config
    ```shell
    ./bin/rails rails_pages:initializer
@@ -15,7 +15,7 @@
    rake app:routes
    ```
 
-## Installation
+## installation
 > Add this line to your application's Gemfile:
 
 ```ruby
