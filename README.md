@@ -1,4 +1,4 @@
-# RailsPages
+# rails_pages
 > Static pages.
 
 ## Usage
