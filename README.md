@@ -23,6 +23,7 @@ gem 'rails_pages', path: '/Users/feizheng/github/rails_pages'
 ```shell
 ./bin/rails d rails_pages:initializer
 ./bin/rails d rails_pages:install
+./bin/rails d rails_pages:page pagename
 ```
 
 ## option
