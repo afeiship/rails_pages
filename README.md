@@ -12,19 +12,13 @@ gem 'rails_pages', git: 'https://github.com/afeiship/rails_pages'
 gem 'rails_pages', path: '/Users/feizheng/github/rails_pages'
 ```
 
-## usage
-1. initial config
-   ```shell
-   ./bin/rails rails_pages:initializer
-   ```
-2. install pages
-   ```shell
-   ./bin/rails rails_pages:install
-   ```
-3. test routes
-   ```shell
-   rake app:routes
-   ```
+## generate
+```shell
+./bin/rails rails_pages:initializer
+./bin/rails rails_pages:install
+./bin/rails rails_pages:page
+```
+
 ## destroy
 ```shell
 ./bin/rails d rails_pages:initializer
