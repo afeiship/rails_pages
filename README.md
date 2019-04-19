@@ -14,6 +14,11 @@
    ```shell
    rake app:routes
    ```
+## destroy
+```shell
+./bin/rails d rails_pages:initializer
+./bin/rails d rails_pages:install
+```
 
 ## installation
 > Add this line to your application's Gemfile:
