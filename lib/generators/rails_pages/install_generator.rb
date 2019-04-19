@@ -1,8 +1,6 @@
 module RailsPages
   class InstallGenerator < Rails::Generators::Base
     source_root File.expand_path("templates", __dir__)
-    p source_root
-
     desc "Configure necessary files to use RailsPages"
 
     def create_initializer
