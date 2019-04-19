@@ -25,14 +25,13 @@
 | ------ | ------- | ------------------- |
 | full   | boolean | mount to root route |
 
-~~~
 <!-- true -->
 | Prefix Verb URI Pattern     | Controller#Action       |
 | --------------------------- | ----------------------- |
 | page1 GET  /page1(.:format) | rails_pages/pages#page1 |
 | page2 GET  /page2(.:format) | rails_pages/pages#page2 |
 | page2 GET  /page3(.:format) | rails_pages/pages#page3 |
-~~~
+
 ## installation
 > Add this line to your application's Gemfile:
 
