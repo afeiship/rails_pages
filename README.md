@@ -1,7 +1,7 @@
 # rails_pages
 > Static pages.
 
-## demo
+## demo project
 - https://github.com/afeiship/rails-module-pages
 
 ## installation
