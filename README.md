@@ -1,6 +1,9 @@
 # rails_pages
 > Static pages.
 
+## demo
+- https://github.com/afeiship/rails-module-pages
+
 ## installation
 > Add this line to your application's Gemfile:
 
